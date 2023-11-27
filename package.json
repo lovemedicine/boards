@@ -1,0 +1,19 @@
+{
+  "name": "boards",
+  "version": "1.0.0",
+  "description": "A tool that scrapes an org's board of directors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matthew skomarovsky",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "html-to-text": "^9.0.5",
+    "js-tiktoken": "^1.0.8",
+    "openai": "^4.20.0",
+    "puppeteer": "^21.5.2"
+  }
+}
